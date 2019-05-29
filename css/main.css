@@ -1,0 +1,91 @@
+ body {
+ 	padding: 0;
+ 	margin: 0;
+ 	font-family: Arial;
+ }
+ header {
+ 	background: url("../img/australia.png") no-repeat center top ;
+ 	height: 500px;
+ 	width: 100%;
+ }
+ .container_head {
+ 	width: 80%;
+ 	margin: auto;
+ }
+ .container {
+ 	background: white;
+ 	width: 70%;
+ 	margin: auto;
+ }
+ .logo {
+ 	height: 7%;
+ 	width: 7%; 
+ }
+ .menu a:hover {
+    background: red;
+}
+.menu li {
+	margin-right: 20px; 
+}
+.menu a {
+	font-size: 180%;
+	color: black;
+}
+.dropdown-menu {
+	border: 0;
+	background: transparent;
+}
+.dropdown-menu a {
+	color: white;
+}
+.titles h1 {
+	margin-top: 6%;
+	font-size: 300%;
+	text-align: center;
+}
+.title h2 {
+	font-size: 250%;
+	text-align: center;
+}
+.title p {
+	margin: 0;
+	font-size: 150%;
+}
+.photo {
+	width: 90%;
+	border-radius: 10%;
+	display: block;
+	margin: auto;
+}
+.content {
+	background: #FFF8DC;
+}
+.video { 
+	display: block;
+	margin: auto;
+	width: 80%;
+}
+.title h1 {
+	font-size: 300%;
+	text-align: center;
+}
+.title_1 h1 {
+	font-size: 300%;
+	text-align: center;
+	color: red;
+}
+span {
+	font-weight: bolder;
+}
+.icon-bar {
+	width: 22px; 
+	height: 2px;
+	background-color: black;
+	display: block;
+	transition: all 0.2s;
+	margin-top: 4px
+}
+.navbar-toggler {
+  border: none;
+  background: transparent !important;
+}
